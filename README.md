@@ -1,2 +1,15 @@
-# pneumonia-detection-resnet50
-Pneumonia classification using transfer learning with ResNet-50
+# Pneumonia Classification Using ResNet-50
+
+Author: Irshad Hussain  
+Designation: Public Health Professional and Epidemiologist
+
+This project fine-tunes ResNet-50 on the PneumoniaMNIST dataset to classify chest X-ray images.
+- Handled class imbalance using weighted loss and data augmentation
+- Metrics: Accuracy, F1-score, AUC
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python train.py
+python evaluate.py
+```
