@@ -13,3 +13,10 @@ pip install -r requirements.txt
 python train.py
 python evaluate.py
 ```
+### Results
+### 📊 Sample Output: Confusion Matrix
+
+This confusion matrix shows the model’s performance on the test set:
+
+![Confusion Matrix](confusion_matrix.png)
+
